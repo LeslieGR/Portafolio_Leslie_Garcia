@@ -1,0 +1,16 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circular--square {
+    border-radius: 50%;
+  }
+.body1 {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/319/070/original/pastel-rainbow-coloured-watercolour-background-free-vector.jpg);
+
+}
+
+footer{
+    position: fixed;
+    align-items: center;
+    bottom: 0;
+}
