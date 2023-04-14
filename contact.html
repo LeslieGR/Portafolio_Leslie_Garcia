@@ -5,12 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/Index.css">
+  <link rel="stylesheet" href="./css/Index.css">
   <title>Contact</title>
 </head>
 <body class="body1" background="./src/vecteezy_pastel-rainbow-coloured-watercolour-background_7319070.jpg">
+  <header class="home container-outer" id="home">
   
-  <nav class="navbar bg-light fixed-top">
+
+     <!-- /.wrapper-->
+  </header>
+  <nav class="navbar fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Contact</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -46,7 +50,7 @@
                     <img src="https://cdn-icons-png.flaticon.com/512/38/38401.png" alt="github link" width="50px" height="50px">
                 </a>
                 <a href="./src/CV Leslie Garcia IT 2023 entrevista.pdf" target="_blank">
-                    <img src="https://us.123rf.com/450wm/tuktukdesign/tuktukdesign1608/tuktukdesign160800038/61010824-icono-de-usuario-mujer-perfil-ejecutiva-avatar-ilustraci%C3%B3n-vectorial-persona-glifo.jpg" alt="CV link" width="50px" height="50px">
+                    <img src="./src/cv logo bw.png" alt="CV link" width="50px" height="50px">
                 </a>
             </div>
                 </div>
@@ -57,10 +61,33 @@
       </div>
     </div>
   </nav>
-  <span></span>
+  
+  <div class="container-form">
+    <p class="contact-letter">I’d love to hear from you!</p><p class="contact-letter">Fill in your info in the form below and I look forward to hearing from you!</p>
+    <form class= "contact-box" action="" method="POST">
+    <div>
+      <div class="field">
+        <input type="text" name="name" id="name" required="required" placeholder="Luis Garcia-Orozco">
+        <label for="name">Name<span class="required">*</span></label>
+      </div>
+      <div class="field">
+        <input type="email" name="_replyto" id="email" required="required" placeholder="mail_invented@internet.com">
+        <label for="email">Email<span class="required">*</span></label>
+      </div>
+      <div class="field">
+        <textarea type="textbox" name="message" id="message" required="required" placeholder="Dear Leslie, I would like to stay in touch with you."></textarea>
+        <label for="message" class="message">Message<span class="required">*</span></label>
+      </div>
+      <button class="btn" value="send">
+        <span>Send email</span>
+        <i class="far fa-envelope-open" aria-hidden="true"></i>
+      </button>
+    </div>
+    </form>
+  </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-<footer>
+<footer class="fixed-bottom">
   <em>Copyrighted &#169; Leslie García</em>
 </footer>
 
