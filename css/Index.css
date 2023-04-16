@@ -232,11 +232,6 @@ mark {
   color: #000;
 }
 
-code, kbd, pre, samp {
-  font-family: monospace, serif;
-  font-size: 1em;
-}
-
 pre {
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -556,10 +551,15 @@ h4 {
   margin-left: 5rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
+  text-align: center;
 }
 
+.about-me-paragraph, .about-me-paragraph2{
+  text-align: justify;
+
+}
 p {
-  margin-left: 50px;
+  margin-left: 15px;
   line-height: 1.55;
   font-size: 1rem;
 }
